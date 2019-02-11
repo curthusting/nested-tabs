@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar color="toolbar">
+    <ion-tabs>
+      <ion-tab-bar slot="top">
+        <ion-tab-button tab="one">
+          <ion-label>Tab 1</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button tab="two">
+          <ion-label>Tab 2</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <p>This content should persist when the active tab is changed</p>
+  <router-outlet></router-outlet>
+</ion-content>
